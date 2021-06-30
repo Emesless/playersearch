@@ -1,0 +1,42 @@
+{
+  "name": "searchPlayers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-async-to-generator": "^7.13.0",
+    "@babel/plugin-transform-runtime": "^7.13.15",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/runtime": "^7.13.10",
+    "@stomp/stompjs": "^6.1.0",
+    "axios": "^0.21.1",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "sockjs-client": "^1.5.1",
+    "vue": "^2.6.12",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.5.1",
+    "vuetify": "^2.5.0",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "deepmerge": "^4.2.2",
+    "sass": "^1.32.13",
+    "sass-loader": "^11.1.1",
+    "store": "^2.0.12",
+    "vue-loader": "^15.9.6",
+    "vue-style-loader": "^4.1.3",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.11.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
